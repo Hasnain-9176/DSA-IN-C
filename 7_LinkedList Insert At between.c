@@ -1,3 +1,5 @@
+// Here we can provide the index manually //
+
 #include<stdio.h>
 #include<stdlib.h>
 struct node{

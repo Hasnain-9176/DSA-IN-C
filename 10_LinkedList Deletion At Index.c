@@ -1,3 +1,5 @@
+// Here, Deleting the element at a given index from the Linked list //
+
 #include<stdio.h>
 #include<stdlib.h>
 struct node{

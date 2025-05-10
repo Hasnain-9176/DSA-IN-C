@@ -7,6 +7,7 @@ struct stack{
     int top;
     int *arr;
 };
+// Is Stack full or not //
 int isFull(struct stack *ptr){
     if(ptr->top == ptr->size-1){
         return 1;
@@ -14,6 +15,7 @@ int isFull(struct stack *ptr){
         return 0;
     }
 }
+// Is Stack Empty or not //
 int isEmpty(struct stack *ptr){
     if(ptr->top == -1){
         return 1;
